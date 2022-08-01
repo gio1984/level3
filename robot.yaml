@@ -1,0 +1,14 @@
+tasks:
+  Run Producer:
+    shell: python producer.py
+  Run Consumer:
+    shell: python consumer.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
